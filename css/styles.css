@@ -1,4 +1,12 @@
 /* ** GLOBAL STYLES ** */
+:root{
+  --primary-color:  #F3603C;
+  --secondary-color:  #FFF0EC;
+  --cod-blue: #242D52;
+  --cod-blue-dim: #242d5280;
+  --black: #1D1E25;
+  --white: #fff;
+}
 html
 {
   height: 100%;
@@ -22,11 +30,12 @@ body
   padding: 0;
   margin: 0;
   font-size: 16px;
-  line-height: 1.5;
-  font-family: Arial, sans-serif;
-  letter-spacing: 0.5px;
-  background-color: #fff;
-  color: #222;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: 'Be Vietnam', Arial, sans-serif;
+  letter-spacing: 0;
+  background-color: var(--white);
+  color: var(--cod-blue-dim);
 }
 img
 {
