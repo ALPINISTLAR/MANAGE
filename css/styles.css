@@ -295,5 +295,25 @@ select:-webkit-autofill:focus {
     letter-spacing: -0.286px;
     margin-bottom: 16px;
   }
-  .testimonial__card-text {
+
+  /* CTA  */
+  .cta {
+    padding-top: 62px;
+    padding-bottom: 62px;
+    background-color: var(--primary-color);
+  }
+  .cta__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cta__title {
+    max-width: 445px;
+    color: var(--white);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.714px;
+    margin-right: 24px;
   }
