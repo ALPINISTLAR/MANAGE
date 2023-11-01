@@ -131,8 +131,8 @@ select:-webkit-autofill:focus {
 
 /* HEADER  */
 .header {
-  padding-top: 73px;
-  padding-bottom: 73px;
+  padding-top: 56px;
+  padding-bottom: 56px;
 }
 .header__container{
   display: flex;
@@ -168,6 +168,26 @@ select:-webkit-autofill:focus {
 }
 .sitenav__link:active{
   opacity: 0.5;
+}
+
+/* HERO */
+.hero {
+  padding-top: 113px;
+  padding-bottom: 180px;
+}
+.hero__content {
+max-width: 445px;
+}
+.hero__title {
+  color: var(--cod-blue);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -1px;
+  margin-bottom: 16px;
+}
+.hero__text {
+margin-bottom: 40px;
 }
 /* ** MAIN CONTENT ** */
 .main-content
