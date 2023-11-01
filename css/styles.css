@@ -114,6 +114,9 @@ select:-webkit-autofill:focus {
   font-weight: 700;
   line-height: normal;
   border-radius: 22px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 .btn:hover{
   opacity: 0.8;
@@ -316,4 +319,89 @@ select:-webkit-autofill:focus {
     line-height: 44px;
     letter-spacing: -0.714px;
     margin-right: 24px;
+  }
+
+  /* FOOTER  */
+  .footer {
+    background-color: var(--black);
+    padding-top: 62px;
+    padding-bottom: 62px;
+  }
+  .footer__container {
+    display: flex;
+  }
+  .footer__logo-social--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .socials {
+    display: flex;
+    align-items: center;
+  }
+  .socials__item:not(:last-child) {
+    margin-right: 16px;
+  }
+  .socials__link:hover   .socials__icon{
+    color: var(--primary-color);
+  }
+  .socials__icon {
+    color: var(--white);
+  }
+  .footer__list-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 540px;
+    width: 100%;
+    margin-right: 13px;
+    margin-left: auto;
+  }
+  .footer__list:nth-child(1) {
+    margin-right: 24px;
+  }
+
+  .list-footer__item:not(:last-child) {
+    margin-bottom: 13px;
+  }
+  .list-footer__link {
+    width: 255px;
+    color: var(--white);
+    font-size: 15px;
+    line-height: normal;
+    letter-spacing: -0.234px;
+  }
+  .list-footer__link:hover{
+    color: var(--primary-color);
+  }
+  .list-footer__link:active{
+    opacity: 0.6;
+  }
+  .footer__form-copywright-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer__form-field-wrapper {
+    height: 100%;
+  }
+  .footer__form-field-wrapper   .btn-primary {
+    height: 100%;
+  }
+  .footer__form-field {
+    padding: 12px 16px;
+    margin-right: 8px;
+    width: 200px;
+    height: 100%;
+    border-radius: 22px;
+  }
+
+  .copyeright {
+    color: var(--white);
+    text-align: right;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.203px;
+    opacity: 0.5;
   }
